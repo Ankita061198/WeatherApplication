@@ -1,4 +1,4 @@
-Feature: WAW_06_ My favourite cities
+Feature: WAW_06_ My favourite cities Option
 
 Scenario: Test case_01_Validate My cities option on Home Page
     Given User is on Home page
