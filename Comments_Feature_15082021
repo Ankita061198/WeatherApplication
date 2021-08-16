@@ -1,0 +1,30 @@
+Reviewd by - Sushil 
+Date- 15 August 2021
+
+General comment:
+
+- All scenarios are not formatted properly
+- Open them in Intellij IDEA you can format them easily. check this document I have mentioned how to format the gherkin scenarios (https://docs.google.com/document/d/12N7N4qicROZnjdrmPemMG7Yjogq5-x8FGgkgzxNXNwU/edit)
+----------
+
+WAW01.feature
+
+
+- Very good. Focus on general feedback. 
+
+----------
+
+WAW02.feature
+
+- Very good. Focus on general feedback. 
+
+
+----------
+
+
+All other scenarios looks Good. Well Done! But you preperated less sceanrio I have observed with repsect to Acceptence critria. 
+
+Did you cover all the acceptence criteria??
+- If answer is NO, then you are putting your application under testing on Risk. You are not testing that application fully. If you add less scenarios and did not cover all the accepetence critera then if some other person is testing application that person will only exeucte your written scenarios. 
+
+So make sure you cover all the acceptence criteria.
