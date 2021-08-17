@@ -1,6 +1,6 @@
-Feature: WAW_06_ My favourite cities Option
+Feature: WAW_06_ My favourite cities
 
-Scenario: Test case_01_Validate My cities option on Home Page
+  Scenario: Test case_01_Validate My cities option on Home Page
     Given User is on Home page
     When User Enter "Mumbai" in search box
     And User Clicks on "search" icon
@@ -9,3 +9,4 @@ Scenario: Test case_01_Validate My cities option on Home Page
     When User Clicks on "Add to Favourite" option on Home page
     Then City Should get added into Favourite
     And User should be able to see Favourite city in "My Cities" Tab
+    
