@@ -28,3 +28,21 @@ Did you cover all the acceptence criteria??
 - If answer is NO, then you are putting your application under testing on Risk. You are not testing that application fully. If you add less scenarios and did not cover all the accepetence critera then if some other person is testing application that person will only exeucte your written scenarios. 
 
 So make sure you cover all the acceptence criteria.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Updated on 17 August 2021
+
+Feature: WAW_02_ Weather information should be available under the search box
+------- you can add one more test cases to check the date format prescribed 
+Feature: WAW_04_ Weather information can be seen in detailed
+------ I was confused here but you have address the 100% acceptance criteria
+-----------------
+  
+Feature: Temperature information changes according to their unit
+
+Scenario Outline: Test Case_01_Validate that user is able to change the units of temperature using different temperature types
+
+----- data inside examples are still not formatted properly 
+-----------------
+Scenario Outline: Test Case_02_Validate that search box should not accept any integer or special character
