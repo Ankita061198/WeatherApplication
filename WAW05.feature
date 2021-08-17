@@ -1,6 +1,6 @@
 Feature: Temperature information changes according to their unit
 
-Scenario Outline: Test Case_01_Validate that user is able to change the units of temperature using different temperature types
+  Scenario Outline: Test Case_01_Validate that user is able to change the units of temperature using different temperature types
     Given User is on Home page
     When User Enter "Mumbai" in search box
     And User Clicks on "search" icon
@@ -11,10 +11,10 @@ Scenario Outline: Test Case_01_Validate that user is able to change the units of
     When user Clicks on "<Temperature Type>"
     Then Temperature should show in "<Temperature Type>"
 
-Examples: 
-|Temperature Type|
-|℃|
-|℉|
-|K|
+    Examples:
+      | Temperature Type |
+      | ℃                |
+      | ℉                |
+      | K                |
 
 
